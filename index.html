@@ -136,19 +136,18 @@
       }
     }
      /* Navigation */
-     .navbar {
+      .navbar {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
-            padding: 20px 5%;
+            height: 60px; /* මේකෙන් height එක control කරයි */
+            padding: 0 5%; /* padding top/bottom ඉවත් කරලා sides වලට විතරක් දාලා */
             display: flex;
             justify-content: space-between;
             align-items: center;
             z-index: 1000;
-            backdrop-filter: blur(10px);
-            background-color: rgba(10, 10, 10, 0.7);
-            transition: var(--transition);
+           transition: var(--transition);
         }
         
         .navbar.scrolled {
