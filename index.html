@@ -28,6 +28,18 @@
             overflow-x: hidden;
             position: relative;
         }
+
+        .light-effect {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background: radial-gradient(circle, rgba(140, 0, 255, 0.3) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+            transform: translate(-50%, -50%);
+            transition: transform 0.2s ease-out;
+            z-index: -1;
+        }
         
         /* Cursor Lightning Effect */
         body::after {
@@ -36,7 +48,7 @@
             width: 20px;
             height: 20px;
             border-radius: 50%;
-            background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 70%);
+            background: radial-gradient(circle, rgba(111, 0, 255, 0.274) 0%, rgba(0, 0, 0, 0) 70%);
             pointer-events: none;
             transform: translate(-50%, -50%);
             z-index: 9999;
@@ -136,7 +148,7 @@
       }
     }
      /* Navigation */
-      .navbar {
+     .navbar {
             position: fixed;
             top: 0;
             left: 0;
@@ -152,7 +164,7 @@
         
         .navbar.scrolled {
             padding: 15px 5%;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+           
         }
         
         .logo img {
@@ -364,7 +376,7 @@
     justify-items: center; /* මෙය cards center කරයි */
 }
         
-        .card {
+         .card {
             background: rgba(20, 20, 20, 0.7);
             border-radius: 15px;
             padding: 40px;
@@ -383,7 +395,7 @@
             left: -50%;
             width: 200%;
             height: 200%;
-            background: radial-gradient(circle, rgba(111, 0, 255, 0.274) 0%, rgba(0,0,0,0) 70%);
+            background: radial-gradient(circle, rgba(111, 0, 255, 0.274) 0%, rgba(0, 0, 0, 0) 70%);
             transform: scale(0);
             transition: transform 0.5s ease;
             pointer-events: none;
@@ -1160,6 +1172,7 @@
             <span>.</span><span>.</span><span>.</span>
           </div>
         </div>
+        <div class="light-effect" id="lightEffect"></div>
            <!-- Navigation -->
            <nav class="navbar">
             <div class="logo">
@@ -1585,6 +1598,12 @@ Also, our friendly customer service department is ready to provide free solution
         }, 500);
       }, 500); // 3 seconds loading
     });
+     // Mouse light effect
+     document.addEventListener('mousemove', (e) => {
+            const light = document.getElementById('lightEffect');
+            light.style.left = e.clientX + 'px';
+            light.style.top = e.clientY + 'px';
+        });
         // Cursor Lightning Effect
         document.addEventListener('mousemove', function(e) {
             document.body.classList.add('lightning');
