@@ -212,7 +212,7 @@
             min-height: 100vh;
             display: flex;
             align-items: center;
-            padding: 100px 5% 50px;
+             padding: 50px 5% !important; /* navigation bar නැති නිසා top padding අඩු කරන්න */
             position: relative;
             overflow: hidden;
         }
@@ -345,7 +345,7 @@
        
         /* Animated Cards Section */
         .section {
-            padding: 100px 18%;
+            padding: 50px 17%;
         }
         
         .section-title {
@@ -360,9 +360,10 @@
         
         .cards-container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    justify-items: center; /* මෙය cards center කරයි */
+}
         
         .card {
             background: rgba(20, 20, 20, 0.7);
@@ -420,9 +421,10 @@
         /* Mission Section */
         .mission-container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    justify-items: center; /* මෙය cards center කරයි */
+}
         
         .mission-card {
             background: rgba(20, 20, 20, 0.7);
@@ -706,7 +708,6 @@
             align-items: center;
             gap: 50px;
         }
-
         .about-content {
             flex: 1;
             animation: fadeIn 1.5s ease 0.3s both;
@@ -715,7 +716,6 @@
         .about-content h2 {
             font-size: 2.5rem;
             color: rgb(0, 162, 255)
-            margin-bottom: 20px;
         }
 
         .about-content p {
@@ -737,8 +737,9 @@
             color: blueviolet;
             border-color: white;
         }
-       
-         .footer {
+
+        /* footer Section */
+       .footer {
             display: flex;
             justify-content: center;
             padding: 2rem 0;
@@ -925,7 +926,7 @@
         }
 
         .footer-links a:hover {
-            color: rgb(2, 48, 255);
+            color: rgba(2, 120, 255, 0.479);
             padding-left: 20px;
         }
 
@@ -968,8 +969,8 @@
             box-shadow: 0 8px 25px rgba(2, 44, 17, 0.6);
         }
         
-        /* Go to Top */
-        .go-top {
+       /* Go to Top */
+       .go-top {
             position: fixed;
             bottom: 100px;
             right: 30px;
@@ -1025,8 +1026,8 @@
             color: rgb(29, 5, 59)
         }
         
-        /* Animations */
-        @keyframes fadeIn {
+       /* Animations */
+       @keyframes fadeIn {
             from { opacity: 0; }
             to { opacity: 1; }
         }
@@ -1087,6 +1088,11 @@
         }
         
         @media (max-width: 768px) {
+            .cards-container {
+        grid-template-columns: 1fr; /* Mobile වලට එක column එකක් */
+        max-width: 400px; /* අවශ්‍ය පරිදි width සීමා කරන්න */
+        margin: 0 auto; /* center කිරීම */
+    }
             .nav-links {
                 position: fixed;
                 top: 80px;
@@ -1155,6 +1161,25 @@
             <span>.</span><span>.</span><span>.</span>
           </div>
         </div>
+           <!-- Navigation -->
+           <nav class="navbar">
+            <div class="logo">
+                <img src="minlogo.png" alt="Janith Graphic Studio">
+            </div>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="active">Home</a>
+                <a href="https://sites.google.com/view/sinha-ai/ai-tools" target="_blank" >AI Tools</a>
+                <a href="https://sites.google.com/view/jgssoftware/education" target="_blank">Education</a>
+                <a href="https://sites.google.com/view/jgssoftware/software" target="_blank">Download</a>
+                <a href="https://sites.google.com/view/jgssoftware/product" target="_blank">Store</a>
+                <a href="https://sites.google.com/view/sinha-ai/api" target="_blank">API</a>
+            </div>
+        </nav>
    <!-- Header -->
     <header class="header">
         <div class="header-image">
@@ -1174,10 +1199,11 @@
                 <a href="https://www.whatsapp.com/catalog/94702001859/?app_absent=0" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
                 <a href="https://www.linkedin.com/in/janitha-athma-herath-a7a3ba271/" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
             </div>
+            <div class="scroll-down" id="scrollDown">
+                <i class="fas fa-chevron-down"></i>
+            </div>
         </div>
-       <div class="scroll-down" id="scrollDown">
-            <i class="fas fa-chevron-down"></i>
-        </div>
+        
     </header>
     
     <!-- Section 1 - Cards -->
@@ -1469,7 +1495,7 @@
  
      <!-- About Section -->
      <section class="about">
-       <div class="about-content">
+        <div class="about-content">
             <h2>About Janith Graphic Studio</h2>
             <p>As one of the best graphic design agencies in Sri Lanka, which has won the trust of customers for six years, we are committed to providing friendly customer service as well as efficient, quality service for you, the customer.</p>
             <p>The service you need is highly ranked in our website and you can contact us on the online contacts information.  
@@ -1529,8 +1555,8 @@ Also, our friendly customer service department is ready to provide free solution
         <i class="fab fa-whatsapp"></i>
     </a>
     
-    <!-- Go to Top -->
-    <div class="go-top">
+     <!-- Go to Top -->
+     <div class="go-top">
         <i class="fas fa-arrow-up"></i>
     </div>
     
@@ -1547,7 +1573,7 @@ Also, our friendly customer service department is ready to provide free solution
     </div>
     
     <script>
-         // Wait for window load event to hide loading overlay and show page content with animations
+        // Wait for window load event to hide loading overlay and show page content with animations
     window.addEventListener("load", () => {
       setTimeout(() => {
         const overlay = document.getElementById("loading-overlay");
@@ -1580,8 +1606,7 @@ Also, our friendly customer service department is ready to provide free solution
             } else {
                 navbar.classList.remove('scrolled');
             }
-
-              // Scroll Down Button
+             // Scroll Down Button
         const scrollDown = document.getElementById('scrollDown');
         scrollDown.addEventListener('click', () => {
             window.scrollTo({
@@ -1613,7 +1638,6 @@ Also, our friendly customer service department is ready to provide free solution
                 }
             });
         }
-        
             
             // Go to Top Button
             const goTop = document.querySelector('.go-top');
@@ -1623,7 +1647,8 @@ Also, our friendly customer service department is ready to provide free solution
                 goTop.classList.remove('active');
             }
         });
-         // Mobile Menu Toggle
+        
+        // Mobile Menu Toggle
         const menuToggle = document.querySelector('.menu-toggle');
         const navLinks = document.querySelector('.nav-links');
         
