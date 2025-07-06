@@ -28,6 +28,18 @@
             overflow-x: hidden;
             position: relative;
         }
+
+        .light-effect {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background: radial-gradient(circle, rgba(140, 0, 255, 0.3) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+            transform: translate(-50%, -50%);
+            transition: transform 0.2s ease-out;
+            z-index: -1;
+        }
         
         /* Cursor Lightning Effect */
         body::after {
@@ -36,7 +48,7 @@
             width: 20px;
             height: 20px;
             border-radius: 50%;
-            background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 70%);
+            background: radial-gradient(circle, rgba(111, 0, 255, 0.274) 0%, rgba(0, 0, 0, 0) 70%);
             pointer-events: none;
             transform: translate(-50%, -50%);
             z-index: 9999;
@@ -61,44 +73,6 @@
             background: var(--primary);
             border-radius: 10px;
         }
-         /* Loading overlay */
-    #loading-overlay {
-      position: fixed;
-      inset: 0;
-      background: url('bai.gif') no-repeat center/cover;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 9999;
-      flex-direction: column;
-      color: #00aaff;
-      font-family: "Amatic SC", cursive;
-      font-size: 3rem;
-      letter-spacing: 0.15em;
-      user-select: none;
-    }
-    /* Animated dots for loading */
-    .loading-dots span {
-      display: inline-block;
-      animation: blink 1.4s infinite;
-      font-weight: 700;
-      font-size: 3rem;
-      color: #00aaff;
-    }
-    .loading-dots span:nth-child(2) {
-      animation-delay: 0.2s;
-    }
-    .loading-dots span:nth-child(3) {
-      animation-delay: 0.4s;
-    }
-    @keyframes blink {
-      0%, 80%, 100% {
-        opacity: 0;
-      }
-      40% {
-        opacity: 1;
-      }
-    }
      /* Animate fadeInUp */
      .fadeInUp {
       animation: fadeInUp 0.8s ease forwards;
@@ -141,19 +115,18 @@
             top: 0;
             left: 0;
             width: 100%;
-            padding: 20px 5%;
+            height: 60px; /* මේකෙන් height එක control කරයි */
+            padding: 0 5%; /* padding top/bottom ඉවත් කරලා sides වලට විතරක් දාලා */
             display: flex;
             justify-content: space-between;
             align-items: center;
             z-index: 1000;
-            backdrop-filter: blur(10px);
-            background-color: rgba(10, 10, 10, 0.7);
-            transition: var(--transition);
+           transition: var(--transition);
         }
         
         .navbar.scrolled {
             padding: 15px 5%;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+           
         }
         
         .logo img {
@@ -212,7 +185,7 @@
             min-height: 100vh;
             display: flex;
             align-items: center;
-            padding: 100px 5% 50px;
+             padding: 50px 5% !important; /* navigation bar නැති නිසා top padding අඩු කරන්න */
             position: relative;
             overflow: hidden;
         }
@@ -360,11 +333,12 @@
         
         .cards-container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    justify-items: center; /* මෙය cards center කරයි */
+}
         
-        .card {
+         .card {
             background: rgba(20, 20, 20, 0.7);
             border-radius: 15px;
             padding: 40px;
@@ -383,7 +357,7 @@
             left: -50%;
             width: 200%;
             height: 200%;
-            background: radial-gradient(circle, rgba(111, 0, 255, 0.274) 0%, rgba(0,0,0,0) 70%);
+            background: radial-gradient(circle, rgba(111, 0, 255, 0.274) 0%, rgba(0, 0, 0, 0) 70%);
             transform: scale(0);
             transition: transform 0.5s ease;
             pointer-events: none;
@@ -420,9 +394,10 @@
         /* Mission Section */
         .mission-container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    justify-items: center; /* මෙය cards center කරයි */
+}
         
         .mission-card {
             background: rgba(20, 20, 20, 0.7);
@@ -706,25 +681,6 @@
             align-items: center;
             gap: 50px;
         }
-
-        .about-image {
-            flex: 1;
-            position: relative;
-            animation: fadeIn 1.5s ease;
-        }
-
-        .about-image img {
-            width: 80%;
-            max-width: 500px;
-            border-radius: 20px;
-            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
-            transition: all 0.5s ease;
-        }
-
-        .about-image img:hover {
-            transform: scale(1.02);
-        }
-
         .about-content {
             flex: 1;
             animation: fadeIn 1.5s ease 0.3s both;
@@ -733,7 +689,6 @@
         .about-content h2 {
             font-size: 2.5rem;
             color: rgb(0, 162, 255)
-            margin-bottom: 20px;
         }
 
         .about-content p {
@@ -755,8 +710,9 @@
             color: blueviolet;
             border-color: white;
         }
-       
-         .footer {
+
+        /* footer Section */
+       .footer {
             display: flex;
             justify-content: center;
             padding: 2rem 0;
@@ -943,7 +899,7 @@
         }
 
         .footer-links a:hover {
-            color: rgb(2, 48, 255);
+            color: rgba(2, 120, 255, 0.479);
             padding-left: 20px;
         }
 
@@ -986,8 +942,8 @@
             box-shadow: 0 8px 25px rgba(2, 44, 17, 0.6);
         }
         
-        /* Go to Top */
-        .go-top {
+       /* Go to Top */
+       .go-top {
             position: fixed;
             bottom: 100px;
             right: 30px;
@@ -1043,8 +999,8 @@
             color: rgb(29, 5, 59)
         }
         
-        /* Animations */
-        @keyframes fadeIn {
+       /* Animations */
+       @keyframes fadeIn {
             from { opacity: 0; }
             to { opacity: 1; }
         }
@@ -1105,6 +1061,11 @@
         }
         
         @media (max-width: 768px) {
+            .cards-container {
+        grid-template-columns: 1fr; /* Mobile වලට එක column එකක් */
+        max-width: 400px; /* අවශ්‍ය පරිදි width සීමා කරන්න */
+        margin: 0 auto; /* center කිරීම */
+    }
             .nav-links {
                 position: fixed;
                 top: 80px;
@@ -1166,13 +1127,23 @@
     </style>
 </head>
 <body>
-        <!-- Loading Overlay -->
-        <div id="loading-overlay" aria-label="Loading animation">
-          Loading
-          <div class="loading-dots">
-            <span>.</span><span>.</span><span>.</span>
-          </div>
-        </div>
+        <div class="light-effect" id="lightEffect"></div>
+           <!-- Navigation -->
+           <nav class="navbar">
+            <div class="logo">
+                <img src="minlogo.png" alt="Janith Graphic Studio">
+            </div>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-links">
+                <a href="https://sites.google.com/view/sinha-ai/ai-tools" target="_blank" >AI Tools</a>
+                <a href="https://sites.google.com/view/jgssoftware/education" target="_blank">Education</a>
+                <a href="https://sites.google.com/view/jgssoftware/product" target="_blank">Store</a>
+            </div>
+        </nav>
    <!-- Header -->
     <header class="header">
         <div class="header-image">
@@ -1184,7 +1155,7 @@
             <div class="btn-group">
                 <a href="https://sites.google.com/view/sinha-ai/sinha-ai-vr1-2025" target="_blank" class="btn btn-primary">CHAT WITH SINHA Ai VR1</a>
                 <a href="https://sites.google.com/view/janithgraphicstudio/services/cdb-data-server-25" target="_blank" class="btn btn-secondary">JGS CDB Server 2025</a>
-                <a href="https://sites.google.com/view/sinha-ai/ai-tools" target="_blank" class="btn btn-secondary">TRY AI TOOLS</a>
+                <a href="https://sites.google.com/view/janithgraphicstudio/shop" target="_blank" class="btn btn-secondary">Order Service</a>
             </div>
             <div class="social-icons">
                 <a href="https://www.facebook.com/janithgraphicstudio.eblog?_rdc=1&_rdr#" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
@@ -1192,10 +1163,11 @@
                 <a href="https://www.whatsapp.com/catalog/94702001859/?app_absent=0" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
                 <a href="https://www.linkedin.com/in/janitha-athma-herath-a7a3ba271/" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
             </div>
+            <div class="scroll-down" id="scrollDown">
+                <i class="fas fa-chevron-down"></i>
+            </div>
         </div>
-       <div class="scroll-down" id="scrollDown">
-            <i class="fas fa-chevron-down"></i>
-        </div>
+        
     </header>
     
     <!-- Section 1 - Cards -->
@@ -1269,6 +1241,18 @@
             <div class="qr-code">
                 <p>Scan QR Join Server</p>
                <img src="qr.png" alt="Scan QR Code">
+            </div>
+        </div>
+    </section>
+    <section class="section 3">
+        <div class="ai-section">
+            <div class="ai-image">
+                <img src="od.png" alt="AI Technology">
+            </div>
+            <div class="ai-content">
+                <h2 class="ai-title">Fast ordering service is now available</h2>
+                <p class="ai-text">For your convenience as a customer, you can now order our services easily and quickly..</p>
+                <a href="https://sites.google.com/view/janithgraphicstudio/shop" target="_blank" class="btn btn-primary">Order Service</a>
             </div>
         </div>
     </section>
@@ -1487,9 +1471,6 @@
  
      <!-- About Section -->
      <section class="about">
-        <div class="about-image">
-            <img src="fh.png" alt="About Janith Graphic Studio">
-        </div>
         <div class="about-content">
             <h2>About Janith Graphic Studio</h2>
             <p>As one of the best graphic design agencies in Sri Lanka, which has won the trust of customers for six years, we are committed to providing friendly customer service as well as efficient, quality service for you, the customer.</p>
@@ -1550,8 +1531,8 @@ Also, our friendly customer service department is ready to provide free solution
         <i class="fab fa-whatsapp"></i>
     </a>
     
-    <!-- Go to Top -->
-    <div class="go-top">
+     <!-- Go to Top -->
+     <div class="go-top">
         <i class="fas fa-arrow-up"></i>
     </div>
     
@@ -1568,19 +1549,12 @@ Also, our friendly customer service department is ready to provide free solution
     </div>
     
     <script>
-         // Wait for window load event to hide loading overlay and show page content with animations
-    window.addEventListener("load", () => {
-      setTimeout(() => {
-        const overlay = document.getElementById("loading-overlay");
-        const content = document.getElementById("page-content");
-        overlay.style.transition = "opacity 0.5s ease";
-        overlay.style.opacity = 0;
-        setTimeout(() => {
-          overlay.style.display = "none";
-          content.style.opacity = 1;
-        }, 500);
-      }, 500); // 3 seconds loading
-    });
+     // Mouse light effect
+     document.addEventListener('mousemove', (e) => {
+            const light = document.getElementById('lightEffect');
+            light.style.left = e.clientX + 'px';
+            light.style.top = e.clientY + 'px';
+        });
         // Cursor Lightning Effect
         document.addEventListener('mousemove', function(e) {
             document.body.classList.add('lightning');
@@ -1601,8 +1575,7 @@ Also, our friendly customer service department is ready to provide free solution
             } else {
                 navbar.classList.remove('scrolled');
             }
-
-              // Scroll Down Button
+             // Scroll Down Button
         const scrollDown = document.getElementById('scrollDown');
         scrollDown.addEventListener('click', () => {
             window.scrollTo({
@@ -1634,7 +1607,6 @@ Also, our friendly customer service department is ready to provide free solution
                 }
             });
         }
-        
             
             // Go to Top Button
             const goTop = document.querySelector('.go-top');
@@ -1644,7 +1616,8 @@ Also, our friendly customer service department is ready to provide free solution
                 goTop.classList.remove('active');
             }
         });
-         // Mobile Menu Toggle
+        
+        // Mobile Menu Toggle
         const menuToggle = document.querySelector('.menu-toggle');
         const navLinks = document.querySelector('.nav-links');
         
