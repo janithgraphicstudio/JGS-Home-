@@ -1,1 +1,612 @@
-const _0x2e951f=_0x1b01;(function(_0x595c6d,_0x20527c){const _0x12eda3=_0x1b01,_0x375f71=_0x595c6d();while(!![]){try{const _0xd1b7ae=-parseInt(_0x12eda3(0xf3))/0x1+parseInt(_0x12eda3(0x10e))/0x2*(-parseInt(_0x12eda3(0xd1))/0x3)+-parseInt(_0x12eda3(0x101))/0x4*(parseInt(_0x12eda3(0xdf))/0x5)+-parseInt(_0x12eda3(0x12d))/0x6+-parseInt(_0x12eda3(0x107))/0x7+parseInt(_0x12eda3(0x12c))/0x8*(parseInt(_0x12eda3(0x130))/0x9)+parseInt(_0x12eda3(0x10d))/0xa;if(_0xd1b7ae===_0x20527c)break;else _0x375f71['push'](_0x375f71['shift']());}catch(_0x497c3c){_0x375f71['push'](_0x375f71['shift']());}}}(_0x3059,0xe895e),document[_0x2e951f(0x121)](_0x2e951f(0xb6),function(){const _0x5385f4=_0x2e951f,_0x103aa0=document['getElementById']('chatbot-button'),_0x1306c8=document[_0x5385f4(0xc0)](_0x5385f4(0xe4)),_0x3a7982=document[_0x5385f4(0xc0)](_0x5385f4(0x11a)),_0x133cb2=document[_0x5385f4(0xf8)](_0x5385f4(0xef)),_0x110cf8=document[_0x5385f4(0xf8)](_0x5385f4(0xf0)),_0x79014f=document[_0x5385f4(0xf8)](_0x5385f4(0xec));let _0x4ad9b4=_0x5385f4(0x108),_0x306a59='';_0x103aa0[_0x5385f4(0x121)](_0x5385f4(0xd7),function(){const _0xaaa885=_0x5385f4;_0x1306c8[_0xaaa885(0xf5)][_0xaaa885(0xd8)](_0xaaa885(0xde)),_0x1306c8[_0xaaa885(0xf5)][_0xaaa885(0x13f)]('active')&&(_0x133cb2['children'][_0xaaa885(0xbf)]===0x0&&_0x202245());}),setTimeout(()=>{const _0x4de176=_0x5385f4;document[_0x4de176(0xf8)](_0x4de176(0xf6))[_0x4de176(0xf5)][_0x4de176(0x110)]('active');},0x7d0),document[_0x5385f4(0xf8)](_0x5385f4(0xf2))[_0x5385f4(0x121)](_0x5385f4(0xd7),()=>{const _0x333353=_0x5385f4;document[_0x333353(0xf8)](_0x333353(0xf6))[_0x333353(0xf5)]['remove'](_0x333353(0xde));}),_0x3a7982[_0x5385f4(0x121)]('click',function(){const _0x35f396=_0x5385f4;_0x1306c8[_0x35f396(0xf5)][_0x35f396(0x113)](_0x35f396(0xde));}),_0x79014f[_0x5385f4(0x121)](_0x5385f4(0xd7),_0x3638ad),_0x110cf8[_0x5385f4(0x121)]('keypress',function(_0x5a4175){const _0x57a1c3=_0x5385f4;_0x5a4175['key']===_0x57a1c3(0xf4)&&_0x3638ad();});function _0x202245(){const _0x66ddb5=_0x5385f4;_0x1720e1(_0x66ddb5(0x131),function(){setTimeout(function(){const _0x1cb05f=_0x1b01;_0x1720e1(_0x1cb05f(0x135),function(){_0x3c87bf();});},0x3e8);});}function _0x3c87bf(){const _0x35c584=_0x5385f4;_0x4ad9b4=_0x35c584(0xb8);const _0x36c9f3=_0x35c584(0xd4),_0x33a644=document[_0x35c584(0xe6)](_0x35c584(0x124));_0x33a644[_0x35c584(0x140)]=_0x35c584(0xda),_0x33a644[_0x35c584(0xc9)]='<div\x20class=\x22typing\x22><span\x20class=\x22typing-dot\x22></span><span\x20class=\x22typing-dot\x22></span><span\x20class=\x22typing-dot\x22></span></div>',_0x133cb2[_0x35c584(0x13a)](_0x33a644),_0x57f7d5(),setTimeout(function(){const _0x7957cf=_0x35c584;_0x33a644[_0x7957cf(0xc9)]=_0x36c9f3,document[_0x7957cf(0x11f)](_0x7957cf(0xee))[_0x7957cf(0x126)](_0x20a7a5=>{_0x20a7a5['addEventListener']('click',function(){const _0x1c83bb=_0x1b01;_0x4dd336(this['dataset'][_0x1c83bb(0xca)]);});}),_0x57f7d5();},0x3e8);}function _0x4dd336(_0x33faaa){const _0x76fd1f=_0x5385f4;_0x306a59=_0x33faaa,document[_0x76fd1f(0xc0)](_0x76fd1f(0x10f))?.[_0x76fd1f(0x113)]();switch(_0x33faaa){case _0x76fd1f(0x125):_0x4ad9b4=_0x76fd1f(0xfb),_0x1720e1(_0x76fd1f(0x134),function(){_0x4f88f0();});break;case _0x76fd1f(0x139):_0x4ad9b4=_0x76fd1f(0x139),_0x1720e1(_0x76fd1f(0xe8),function(){const _0x492370=_0x76fd1f;_0x10d0ee(_0x492370(0x112),'fas\x20fa-external-link-alt',_0x492370(0xc7));});break;case _0x76fd1f(0x10b):_0x4ad9b4=_0x76fd1f(0x10b),_0x1720e1(_0x76fd1f(0xc6),function(){_0x20a88a();});break;case _0x76fd1f(0x109):_0x4ad9b4=_0x76fd1f(0x109),_0x1720e1(_0x76fd1f(0x106),function(){const _0x25f60a=_0x76fd1f;_0x10d0ee(_0x25f60a(0x112),_0x25f60a(0x137),_0x25f60a(0xd2));});break;}}function _0x4f88f0(){const _0x1c4da3=_0x5385f4,_0x3f9c3b='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22options-list\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22option-item\x22\x20data-option=\x22know-services\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20a.\x20අපගේ\x20සේවාවන්\x20දැනගන්න\x20(Know\x20our\x20services)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22option-item\x22\x20data-option=\x22portfolio\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20b.\x20Portpolio\x20සහ\x20Example\x20නැරබීම\x20(Portfolio\x20&\x20Samples)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22option-item\x22\x20data-option=\x22buy-services\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20c.\x20සේවාවන්\x20මිලදී\x20ගැනීම\x20(Buy\x20Services)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22option-item\x22\x20data-option=\x22place-order\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20d.\x20Graphic\x20Design\x20Service\x20ඇණවුම්\x20කිරීම\x20(Place\x20an\x20Order)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',_0xc96872=document['createElement'](_0x1c4da3(0x124));_0xc96872[_0x1c4da3(0x140)]=_0x1c4da3(0xda),_0xc96872['innerHTML']='<div\x20class=\x22typing\x22><span\x20class=\x22typing-dot\x22></span><span\x20class=\x22typing-dot\x22></span><span\x20class=\x22typing-dot\x22></span></div>',_0x133cb2['appendChild'](_0xc96872),_0x57f7d5(),setTimeout(function(){const _0x10e9ba=_0x1c4da3;_0xc96872['innerHTML']=_0x3f9c3b,document[_0x10e9ba(0x11f)](_0x10e9ba(0x13e))[_0x10e9ba(0x126)](_0x56b5d7=>{const _0x18bad0=_0x10e9ba;_0x56b5d7['addEventListener'](_0x18bad0(0xd7),function(){const _0xcd312d=_0x18bad0;_0x5e04d9(this[_0xcd312d(0x114)][_0xcd312d(0x136)]);});}),_0x57f7d5();},0x3e8);}function _0x5e04d9(_0x3d1524){const _0x39928d=_0x5385f4;document[_0x39928d(0xc0)](_0x39928d(0x104))?.[_0x39928d(0x113)]();switch(_0x3d1524){case _0x39928d(0x10a):_0x1720e1(_0x39928d(0x106),function(){const _0x1d0bc0=_0x39928d;_0x10d0ee(_0x1d0bc0(0x112),_0x1d0bc0(0x137),_0x1d0bc0(0xcb));});break;case _0x39928d(0xd0):_0x1720e1(_0x39928d(0x102),function(){const _0x270e81=_0x39928d;_0x10d0ee('Get\x20Now',_0x270e81(0x137),_0x270e81(0x13c));});break;case _0x39928d(0x123):_0x1720e1(_0x39928d(0x115),function(){const _0x4e9ccd=_0x39928d;_0x10d0ee(_0x4e9ccd(0x112),_0x4e9ccd(0x137),_0x4e9ccd(0xd2));});break;case _0x39928d(0x100):_0x1720e1('ස්තූති,\x20ඔබගේ\x20පැමිණීම\x20අපට\x20ඉමහත්\x20ගෞරවයකි.\x20ඔබගේ\x20සේවා\x20ඇණවුම\x20දැන්\x20අපට\x20ලබාදන්න.',function(){const _0x4294ee=_0x39928d;_0x10d0ee(_0x4294ee(0x103),_0x4294ee(0xf1),_0x4294ee(0x12a),!![]);});break;}}function _0x20a88a(){const _0x14a388=_0x5385f4,_0x177194=_0x14a388(0xe0),_0x2419ff=document['createElement'](_0x14a388(0x124));_0x2419ff['className']=_0x14a388(0xda),_0x2419ff[_0x14a388(0xc9)]=_0x14a388(0xb5),_0x133cb2[_0x14a388(0x13a)](_0x2419ff),_0x57f7d5(),setTimeout(function(){const _0x575219=_0x14a388;_0x2419ff['innerHTML']=_0x177194,document['getElementById'](_0x575219(0xdd))?.['addEventListener'](_0x575219(0xd7),function(){const _0x33dd3a=_0x575219,_0x217626=document[_0x33dd3a(0xf8)](_0x33dd3a(0xe1));_0x217626[_0x33dd3a(0xc8)][_0x33dd3a(0xc1)]()!==''&&(_0x141036(_0x217626[_0x33dd3a(0xc8)]),_0x217626['value']='',setTimeout(function(){const _0x3d1a21=_0x33dd3a;_0x1720e1(_0x3d1a21(0xba),function(){const _0x3f6fe6=_0x3d1a21;window[_0x3f6fe6(0xe9)](_0x3f6fe6(0x12a),_0x3f6fe6(0xfc));});},0x3e8));}),document[_0x575219(0xf8)](_0x575219(0xe1))?.[_0x575219(0x121)]('keypress',function(_0x4a1d3a){const _0x44cf54=_0x575219;_0x4a1d3a[_0x44cf54(0xb7)]===_0x44cf54(0xf4)&&document['getElementById'](_0x44cf54(0xdd))[_0x44cf54(0xd7)]();}),_0x57f7d5();},0x3e8);}function _0x10d0ee(_0x27c4e5,_0x21689f,_0x23a90f,_0x33b7cd=![]){const _0x468214=_0x5385f4,_0x413990=_0x468214(0xea)+_0x21689f+_0x468214(0x11e)+_0x27c4e5+_0x468214(0xfa),_0x126c25=document[_0x468214(0xe6)]('div');_0x126c25[_0x468214(0x140)]=_0x468214(0xda),_0x126c25[_0x468214(0xc9)]=_0x468214(0xb5),_0x133cb2['appendChild'](_0x126c25),_0x57f7d5(),setTimeout(function(){const _0x2a9d4e=_0x468214;_0x126c25[_0x2a9d4e(0xc9)]=_0x413990,document[_0x2a9d4e(0xf8)](_0x2a9d4e(0x13b))?.[_0x2a9d4e(0x121)](_0x2a9d4e(0xd7),function(){const _0x26b3ff=_0x2a9d4e;if(_0x33b7cd){const _0x5740ed=new Date()[_0x26b3ff(0xd5)]();window[_0x26b3ff(0xe9)](_0x23a90f+_0x26b3ff(0xfd)+encodeURIComponent(_0x26b3ff(0xd9)+_0x5740ed),_0x26b3ff(0xfc));}else window[_0x26b3ff(0xe9)](_0x23a90f,_0x26b3ff(0xfc));}),_0x57f7d5();},0x3e8);}function _0x1720e1(_0x4b68b9,_0x2e383e){const _0x3e1ded=_0x5385f4,_0x55a819=document['createElement']('div');_0x55a819[_0x3e1ded(0x140)]=_0x3e1ded(0xda),_0x55a819['innerHTML']=_0x3e1ded(0xb5),_0x133cb2['appendChild'](_0x55a819),_0x57f7d5();const _0x2c774b=Math[_0x3e1ded(0x118)](_0x4b68b9[_0x3e1ded(0xbf)]*0x32,0xbb8);setTimeout(function(){const _0x5c7f61=_0x3e1ded;_0x55a819[_0x5c7f61(0xc9)]=_0x4b68b9,_0x57f7d5(),_0x2e383e&&_0x2e383e();},_0x2c774b);}function _0x141036(_0x34b1aa){const _0x50ec7d=_0x5385f4,_0x57326e=document[_0x50ec7d(0xe6)]('div');_0x57326e[_0x50ec7d(0x140)]=_0x50ec7d(0xed),_0x57326e[_0x50ec7d(0xbc)]=_0x34b1aa,_0x133cb2['appendChild'](_0x57326e),_0x57f7d5();}function _0x3638ad(){const _0x3133c0=_0x5385f4,_0x469425=_0x110cf8[_0x3133c0(0xc8)][_0x3133c0(0xc1)]();_0x469425!==''&&(_0x141036(_0x469425),_0x110cf8['value']='',setTimeout(function(){const _0x4dc61f=_0x3133c0;switch(_0x4ad9b4){case _0x4dc61f(0x108):case _0x4dc61f(0xb8):_0x1720e1(_0x4dc61f(0x133),function(){_0x3c87bf();});break;case'graphic-design-options':_0x1720e1(_0x4dc61f(0xc3),function(){_0x4f88f0();});break;case _0x4dc61f(0x10b):break;default:_0x1720e1('I\x27m\x20not\x20sure\x20how\x20to\x20respond\x20to\x20that.\x20Please\x20select\x20one\x20of\x20the\x20options\x20above.',function(){const _0x425af7=_0x4dc61f;_0x4ad9b4===_0x425af7(0xfb)?_0x4f88f0():_0x3c87bf();});}},0x3e8));}function _0x57f7d5(){const _0x703297=_0x5385f4;_0x133cb2[_0x703297(0xdc)]=_0x133cb2[_0x703297(0xdb)];}}),window[_0x2e951f(0x121)](_0x2e951f(0xb6),function(){const _0x590389=_0x2e951f,_0x10dad6=document['getElementById'](_0x590389(0xf7)),_0x578c61=document[_0x590389(0xf8)](_0x590389(0x12f));setTimeout(()=>{const _0xa71b69=_0x590389;_0x10dad6[_0xa71b69(0xf5)][_0xa71b69(0x110)](_0xa71b69(0xeb)),setTimeout(()=>{const _0x28a48a=_0xa71b69;_0x10dad6[_0x28a48a(0xf5)][_0x28a48a(0x113)](_0x28a48a(0xeb));},0xfa0);},0x3e8),_0x578c61[_0x590389(0x116)]=()=>_0x10dad6[_0x590389(0xf5)][_0x590389(0x113)]('show');}),document[_0x2e951f(0x121)](_0x2e951f(0x11d),_0x341aed=>{const _0x567440=_0x2e951f,_0x2d62bf=document[_0x567440(0xf8)]('lightEffect');_0x2d62bf[_0x567440(0x127)]['left']=_0x341aed[_0x567440(0xc5)]+'px',_0x2d62bf[_0x567440(0x127)][_0x567440(0xc4)]=_0x341aed[_0x567440(0x128)]+'px';}),document[_0x2e951f(0x121)](_0x2e951f(0x11d),function(_0x399192){const _0x113fd1=_0x2e951f;document[_0x113fd1(0x11c)][_0x113fd1(0xf5)][_0x113fd1(0x110)](_0x113fd1(0x12b));const _0xfdb67a=document[_0x113fd1(0x11c)];_0xfdb67a[_0x113fd1(0x127)]['setProperty'](_0x113fd1(0x132),_0x399192[_0x113fd1(0xc5)]+'px'),_0xfdb67a[_0x113fd1(0x127)]['setProperty']('--y',_0x399192['clientY']+'px'),setTimeout(()=>{const _0x21416d=_0x113fd1;document[_0x21416d(0x11c)][_0x21416d(0xf5)][_0x21416d(0x113)](_0x21416d(0x12b));},0x64);}),window['addEventListener'](_0x2e951f(0xe2),function(){const _0x4083d2=_0x2e951f,_0x4294d7=document[_0x4083d2(0xc0)](_0x4083d2(0x11b));window['scrollY']>0x32?_0x4294d7['classList'][_0x4083d2(0x110)]('scrolled'):_0x4294d7[_0x4083d2(0xf5)][_0x4083d2(0x113)](_0x4083d2(0x122));const _0x4bdd92=document['getElementById']('scrollDown');_0x4bdd92[_0x4083d2(0x121)]('click',()=>{const _0x48e423=_0x4083d2;window[_0x48e423(0xfe)]({'top':window[_0x48e423(0xb4)],'behavior':_0x48e423(0xbb)});}),document[_0x4083d2(0x11f)](_0x4083d2(0x10c))[_0x4083d2(0x126)](_0x4ddc17=>{const _0x5469f9=_0x4083d2;_0x4ddc17[_0x5469f9(0x121)](_0x5469f9(0xd7),function(_0x423421){const _0x3b5dd6=_0x5469f9;_0x423421[_0x3b5dd6(0xcc)](),document[_0x3b5dd6(0xc0)](this[_0x3b5dd6(0x119)](_0x3b5dd6(0xe3)))[_0x3b5dd6(0xbd)]({'behavior':_0x3b5dd6(0xbb)});});});function _0x38e30b(){const _0xa270df=_0x4083d2,_0x5644b8=document[_0xa270df(0x11f)](_0xa270df(0x129));_0x5644b8['forEach'](_0x5a506f=>{const _0x3bb01a=_0xa270df,_0x461b8a=_0x5a506f[_0x3bb01a(0xff)]()[_0x3bb01a(0xc4)],_0x3b4b00=window[_0x3bb01a(0xb4)]/1.3;_0x461b8a<_0x3b4b00&&(_0x5a506f[_0x3bb01a(0x127)][_0x3bb01a(0x111)]='1',_0x5a506f[_0x3bb01a(0x127)][_0x3bb01a(0xce)]='translateY(0)');});}const _0x19c2c8=document[_0x4083d2(0xc0)](_0x4083d2(0xd6));window['scrollY']>0x12c?_0x19c2c8[_0x4083d2(0xf5)][_0x4083d2(0x110)](_0x4083d2(0xde)):_0x19c2c8['classList'][_0x4083d2(0x113)](_0x4083d2(0xde));}));const scrollToTop=document[_0x2e951f(0xc0)](_0x2e951f(0xd6));if(scrollToTop){function scrollTopHandler(_0x498304){const _0x14b0df=_0x2e951f;window[_0x14b0df(0xfe)]({'top':0x0,'behavior':_0x14b0df(0xbb)});}scrollToTop[_0x2e951f(0x121)](_0x2e951f(0xd7),scrollTopHandler),scrollToTop[_0x2e951f(0x121)](_0x2e951f(0x105),scrollTopHandler);}const menuToggle=document['querySelector'](_0x2e951f(0xcf)),navLinks=document[_0x2e951f(0xc0)]('.nav-links');menuToggle[_0x2e951f(0x121)](_0x2e951f(0xd7),function(){const _0x47e4d1=_0x2e951f;menuToggle[_0x47e4d1(0xf5)][_0x47e4d1(0xd8)](_0x47e4d1(0xde)),navLinks[_0x47e4d1(0xf5)][_0x47e4d1(0xd8)](_0x47e4d1(0xde));});const navItems=document[_0x2e951f(0x11f)](_0x2e951f(0x120));navItems[_0x2e951f(0x126)](_0x5bfa49=>{_0x5bfa49['addEventListener']('click',function(){const _0x1c46ab=_0x1b01;menuToggle[_0x1c46ab(0xf5)]['remove'](_0x1c46ab(0xde)),navLinks[_0x1c46ab(0xf5)][_0x1c46ab(0x113)](_0x1c46ab(0xde));});});const learnMore=document[_0x2e951f(0xf8)](_0x2e951f(0xc2)),popup=document[_0x2e951f(0xf8)](_0x2e951f(0x141)),popupClose=document['querySelector']('.popup-close');learnMore[_0x2e951f(0x121)](_0x2e951f(0xd7),function(_0x594a03){const _0x5ef7aa=_0x2e951f;_0x594a03['preventDefault'](),popup['classList'][_0x5ef7aa(0x110)](_0x5ef7aa(0xde)),document[_0x5ef7aa(0x11c)][_0x5ef7aa(0x127)][_0x5ef7aa(0xbe)]='hidden';}),popupClose[_0x2e951f(0x121)](_0x2e951f(0xd7),function(){const _0x32b1d6=_0x2e951f;popup[_0x32b1d6(0xf5)][_0x32b1d6(0x113)](_0x32b1d6(0xde)),document[_0x32b1d6(0x11c)]['style'][_0x32b1d6(0xbe)]=_0x32b1d6(0x12e);}),popup[_0x2e951f(0x121)](_0x2e951f(0xd7),function(_0x42d06f){const _0x41a51e=_0x2e951f;_0x42d06f[_0x41a51e(0xb2)]===popup&&(popup[_0x41a51e(0xf5)][_0x41a51e(0x113)]('active'),document[_0x41a51e(0x11c)][_0x41a51e(0x127)][_0x41a51e(0xbe)]=_0x41a51e(0x12e));}),document[_0x2e951f(0x11f)](_0x2e951f(0xb3))[_0x2e951f(0x126)](_0x246fe5=>{const _0x5c822c=_0x2e951f;_0x246fe5[_0x5c822c(0x121)](_0x5c822c(0x11d),function(_0x516435){const _0x57f6d8=_0x5c822c,_0x4a7789=_0x246fe5['getBoundingClientRect'](),_0x2267c6=_0x516435['clientX']-_0x4a7789[_0x57f6d8(0x117)],_0x4d247c=_0x516435[_0x57f6d8(0x128)]-_0x4a7789[_0x57f6d8(0xc4)];_0x246fe5[_0x57f6d8(0x127)][_0x57f6d8(0xcd)](_0x57f6d8(0x138),_0x2267c6+'px'),_0x246fe5[_0x57f6d8(0x127)][_0x57f6d8(0xcd)](_0x57f6d8(0xe7),_0x4d247c+'px');});});const goTop=document['querySelector'](_0x2e951f(0xd6));goTop[_0x2e951f(0x121)](_0x2e951f(0xd7),function(){const _0x149ef1=_0x2e951f;window[_0x149ef1(0xfe)]({'top':0x0,'behavior':_0x149ef1(0xbb)});});function _0x1b01(_0x28b055,_0x42f8bc){const _0x305912=_0x3059();return _0x1b01=function(_0x1b01dc,_0x5929da){_0x1b01dc=_0x1b01dc-0xb2;let _0x28f1b0=_0x305912[_0x1b01dc];return _0x28f1b0;},_0x1b01(_0x28b055,_0x42f8bc);}const animateOnScroll=function(){const _0x4464f3=_0x2e951f,_0x33a935=document[_0x4464f3(0x11f)](_0x4464f3(0xb9));_0x33a935['forEach'](_0x74ee45=>{const _0x361bd1=_0x4464f3,_0x35712c=_0x74ee45[_0x361bd1(0xff)]()['top'],_0x2c3987=window[_0x361bd1(0xb4)]/1.3;_0x35712c<_0x2c3987&&(_0x74ee45[_0x361bd1(0x127)][_0x361bd1(0x111)]='1',_0x74ee45[_0x361bd1(0x127)][_0x361bd1(0xce)]=_0x361bd1(0xd3));});};function _0x3059(){const _0x104a2b=['add','opacity','Get\x20Now','remove','dataset','අපගේ\x20සේවාවන්\x20සහ\x20මිලගණන්\x20දැනගැනීමට\x20හෝ\x20මිලදී\x20ගැනීමට\x20පිවිසෙන්න..','onclick','left','min','getAttribute','.chatbot-close','.navbar','body','mousemove','\x22></i>\x20','querySelectorAll','.nav-links\x20a','addEventListener','scrolled','buy-services','div','graphic-design','forEach','style','clientY','.card,\x20.feature-item,\x20.about-image,\x20.about-content','https://wa.me/94702001859','lightning','464BEcdpu','5734212jpWTnR','auto','chatbot-notification-close','278469BdIeNU','Hi\x20👋\x20I\x20am\x20JGS\x20Chatbot\x20Assistant,\x20How\x20Can\x20I\x20Help\x20You\x20Today?','--x','කරුණාකර\x20ඉහත\x20සේවා\x20වලින්\x20ඔබට\x20අවශ්‍ය\x20එක\x20තෝරන්න.','Graphic\x20Design\x20Service\x20-\x20ග්‍රැෆික්\x20ඩිසයින්\x20සේවාවන්','ඔබට\x20අවශ්‍ය\x20සේවාව\x20කුමක්ද..?\x20/\x20What\x20service\x20do\x20you\x20need?','option','fas\x20fa-external-link-alt','--mouse-x','about-us','appendChild','action-btn','https://sites.google.com/view/janithgraphicstudio/portfolio','transition','.option-item','contains','className','popup','target','.card','innerHeight','<div\x20class=\x22typing\x22><span\x20class=\x22typing-dot\x22></span><span\x20class=\x22typing-dot\x22></span><span\x20class=\x22typing-dot\x22></span></div>','DOMContentLoaded','key','services','.card,\x20.mission-card,\x20.ai-section,\x20.section-title','ස්තූතියි!\x20ඔබගේ\x20ප්‍රශ්නය\x20අප\x20වෙත\x20යොමු\x20කර\x20ඇත.\x20අපගේ\x20සහය\x20කණ්ඩායම\x20ඔබට\x20ඉක්මනින්\x20පිලිතුරු\x20දෙනු\x20ඇත.','smooth','textContent','scrollIntoView','overflow','length','querySelector','trim','learn-more','කරුණාකර\x20ඉහත\x20විකල්ප\x20වලින්\x20ඔබට\x20අවශ්‍ය\x20එක\x20තෝරන්න.','top','clientX','ඔබට\x20සහය\x20වීමට\x20ලැබීම\x20අපට\x20සතුටකි.\x20කරුණාකර\x20ඔබගේ\x20ගැටලුව\x20අප\x20වෙත\x20යොමු\x20කරන්න.','https://sites.google.com/view/janithgraphicstudio/about','value','innerHTML','service','https://sites.google.com/view/janithgraphicstudio/services','preventDefault','setProperty','transform','.menu-toggle','portfolio','1917osOvXf','https://sites.google.com/view/janithgraphicstudio/shop','translateY(0)','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22service-cards\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22service-card\x22\x20data-service=\x22graphic-design\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-paint-brush\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Graphic\x20Design\x20Service\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22service-card\x22\x20data-service=\x22about-us\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-info-circle\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20අපි\x20ගැන\x20දැනගන්න\x20(About\x20Us)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22service-card\x22\x20data-service=\x22consulting\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-headset\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20කන්සාල්ටින්\x20සහ\x20උපකාර\x20(Consulting\x20&\x20Help)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22service-card\x22\x20data-service=\x22support\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fas\x20fa-hands-helping\x22></i>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20කස්ටමර්\x20Support\x20(Customer\x20Support)\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','toLocaleString','.go-top','click','toggle','I\x20need\x20help\x20with\x20JGS\x20services\x20-\x20','bot-message\x20message','scrollHeight','scrollTop','send-consultation','active','215BzAamH','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22bot-message\x20message\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>කරුණාකර\x20ඔබගේ\x20ප්‍රශ්නය\x20හෝ\x20ගැටලුව\x20ලියන්න:</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22chatbot-input\x22\x20style=\x22padding:\x2010px\x200\x200\x200;\x20border:\x20none;\x20background:\x20transparent;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20placeholder=\x22Type\x20your\x20question...\x22\x20id=\x22consulting-input\x22\x20style=\x22width:\x20100%;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22action-buttons\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22action-btn\x22\x20id=\x22send-consultation\x22\x20style=\x22margin-top:\x2010px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22fab\x20fa-whatsapp\x22></i>\x20Send\x20Now\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','consulting-input','scroll','href','.chatbot-panel','translateY(50px)','createElement','--mouse-y','අප\x20පිළිබඳ\x20දැනගැනීමට\x20පිවිසෙන්න..','open','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22action-buttons\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22action-btn\x22\x20id=\x22action-btn\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<i\x20class=\x22','show','send-btn','user-message\x20message','.service-card','chatbot-messages','user-input','fab\x20fa-whatsapp','closePopup','1471254hLQtOn','Enter','classList','welcomePopup','chatbot-notification','getElementById','opacity\x200.5s\x20ease,\x20transform\x200.5s\x20ease','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','graphic-design-options','_blank','?text=','scrollTo','getBoundingClientRect','place-order','121276zFkzqB','අපගේ\x20නිර්මාණ\x20සහ\x20Portpolio\x20නැරඹීමට\x20සහ\x20ඒ\x20පිළිබඳ\x20දැනගැනීමට\x20පිවිසෙන්න..','Order\x20Now','.options-list','touchstart','අපගේ\x20සේවාවන්\x20පිළිබඳ\x20දැනගැනීමට\x20පිවිසෙන්න..','1629593aHOSTW','initial','support','know-services','consulting','a[href^=\x22#\x22]','41765530TmIqbq','3302ikkcPI','.service-cards'];_0x3059=function(){return _0x104a2b;};return _0x3059();}window[_0x2e951f(0x121)]('load',function(){const _0x3cd16f=_0x2e951f,_0x1542b4=document['querySelectorAll'](_0x3cd16f(0xb9));_0x1542b4[_0x3cd16f(0x126)](_0x59e9c4=>{const _0xfcf26d=_0x3cd16f;_0x59e9c4[_0xfcf26d(0x127)][_0xfcf26d(0x111)]='0',_0x59e9c4['style'][_0xfcf26d(0xce)]=_0xfcf26d(0xe5),_0x59e9c4[_0xfcf26d(0x127)][_0xfcf26d(0x13d)]=_0xfcf26d(0xf9);}),animateOnScroll();}),window[_0x2e951f(0x121)]('scroll',animateOnScroll);
+// Chatbot Functionality for Janith Graphic Studio
+document.addEventListener('DOMContentLoaded', function() {
+    // DOM Elements
+    const chatbotButton = document.getElementById('chatbot-button');
+    const chatbotPanel = document.querySelector('.chatbot-panel');
+    const chatbotClose = document.querySelector('.chatbot-close');
+    const chatbotMessages = document.getElementById('chatbot-messages');
+    const userInput = document.getElementById('user-input');
+    const sendBtn = document.getElementById('send-btn');
+
+    // Chatbot state
+    let currentState = 'initial';
+    let selectedService = '';
+
+    // Toggle chatbot panel
+    chatbotButton.addEventListener('click', function() {
+        chatbotPanel.classList.toggle('active');
+        if (chatbotPanel.classList.contains('active')) {
+            // Only show initial message if this is the first time opening
+            if (chatbotMessages.children.length === 0) {
+                showInitialMessages();
+            }
+        }
+    });
+
+    // Close chatbot panel
+    chatbotClose.addEventListener('click', function() {
+        chatbotPanel.classList.remove('active');
+    });
+
+    // Send message on button click
+    sendBtn.addEventListener('click', sendMessage);
+
+    // Send message on Enter key
+    userInput.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            sendMessage();
+        }
+    });
+
+    // Initial bot messages
+            function showInitialMessages() {
+                // First message
+                addBotMessage("Hi 👋 I am JGS Chatbot Assistant, How Can I Help You Today?", function() {
+                    // Second message after a delay
+                    setTimeout(function() {
+                        addBotMessage("ඔබට අවශ්‍ය සේවාව කුමක්ද..? / What service do you need?", function() {
+                            // Show service cards
+                            showServiceCards();
+                        });
+                    }, 1000);
+                });
+            }
+
+            // Show service cards
+            function showServiceCards() {
+                currentState = 'services';
+                
+                const cardsHtml = `
+                    <div class="service-cards">
+                        <div class="service-card" data-service="graphic-design">
+                            <i class="fas fa-paint-brush"></i>
+                            Graphic Design Service
+                        </div>
+                        <div class="service-card" data-service="about-us">
+                            <i class="fas fa-info-circle"></i>
+                            අපි ගැන දැනගන්න (About Us)
+                        </div>
+                        <div class="service-card" data-service="consulting">
+                            <i class="fas fa-headset"></i>
+                            කන්සාල්ටින් සහ උපකාර (Consulting & Help)
+                        </div>
+                        <div class="service-card" data-service="support">
+                            <i class="fas fa-hands-helping"></i>
+                            කස්ටමර් Support (Customer Support)
+                        </div>
+                    </div>
+                `;
+                
+                // Add cards with typing effect container
+                const typingContainer = document.createElement('div');
+                typingContainer.className = 'bot-message message';
+                typingContainer.innerHTML = '<div class="typing"><span class="typing-dot"></span><span class="typing-dot"></span><span class="typing-dot"></span></div>';
+                chatbotMessages.appendChild(typingContainer);
+                
+                // Scroll to bottom
+                scrollToBottom();
+                
+                // After a short delay, replace typing with cards
+                setTimeout(function() {
+                    typingContainer.innerHTML = cardsHtml;
+                    
+                    // Add event listeners to cards
+                    document.querySelectorAll('.service-card').forEach(card => {
+                        card.addEventListener('click', function() {
+                            handleServiceSelection(this.dataset.service);
+                        });
+                    });
+                    
+                    scrollToBottom();
+                }, 1000);
+            }
+
+            // Handle service selection
+            function handleServiceSelection(service) {
+                selectedService = service;
+                
+                // Remove existing cards
+                document.querySelector('.service-cards')?.remove();
+                
+                // Show selected service response
+                switch(service) {
+                    case 'graphic-design':
+                        currentState = 'graphic-design-options';
+                        addBotMessage("Graphic Design Service - ග්‍රැෆික් ඩිසයින් සේවාවන්", function() {
+                            showGraphicDesignOptions();
+                        });
+                        break;
+                        
+                    case 'about-us':
+                        currentState = 'about-us';
+                        addBotMessage("අප පිළිබඳ දැනගැනීමට පිවිසෙන්න..", function() {
+                            showActionButton("Get Now", "fas fa-external-link-alt", "https://sites.google.com/view/janithgraphicstudio/about");
+                        });
+                        break;
+                        
+                    case 'consulting':
+                        currentState = 'consulting';
+                        addBotMessage("ඔබට සහය වීමට ලැබීම අපට සතුටකි. කරුණාකර ඔබගේ ගැටලුව අප වෙත යොමු කරන්න.", function() {
+                            showConsultingInput();
+                        });
+                        break;
+                        
+                    case 'support':
+                        currentState = 'support';
+                        addBotMessage("අපගේ සේවාවන් පිළිබඳ දැනගැනීමට පිවිසෙන්න..", function() {
+                            showActionButton("Get Now", "fas fa-external-link-alt", "https://sites.google.com/view/janithgraphicstudio/shop");
+                        });
+                        break;
+                }
+            }
+
+            // Show graphic design options
+            function showGraphicDesignOptions() {
+                const optionsHtml = `
+                    <div class="options-list">
+                        <div class="option-item" data-option="know-services">
+                            a. අපගේ සේවාවන් දැනගන්න (Know our services)
+                        </div>
+                        <div class="option-item" data-option="portfolio">
+                            b. Portpolio සහ Example නැරබීම (Portfolio & Samples)
+                        </div>
+                        <div class="option-item" data-option="buy-services">
+                            c. සේවාවන් මිලදී ගැනීම (Buy Services)
+                        </div>
+                        <div class="option-item" data-option="place-order">
+                            d. Graphic Design Service ඇණවුම් කිරීම (Place an Order)
+                        </div>
+                    </div>
+                `;
+                
+                // Add options with typing effect container
+                const typingContainer = document.createElement('div');
+                typingContainer.className = 'bot-message message';
+                typingContainer.innerHTML = '<div class="typing"><span class="typing-dot"></span><span class="typing-dot"></span><span class="typing-dot"></span></div>';
+                chatbotMessages.appendChild(typingContainer);
+                
+                // Scroll to bottom
+                scrollToBottom();
+                
+                // After a short delay, replace typing with options
+                setTimeout(function() {
+                    typingContainer.innerHTML = optionsHtml;
+                    
+                    // Add event listeners to options
+                    document.querySelectorAll('.option-item').forEach(option => {
+                        option.addEventListener('click', function() {
+                            handleGraphicDesignOption(this.dataset.option);
+                        });
+                    });
+                    
+                    scrollToBottom();
+                }, 1000);
+            }
+
+            // Handle graphic design option selection
+            function handleGraphicDesignOption(option) {
+                // Remove existing options
+                document.querySelector('.options-list')?.remove();
+                
+                switch(option) {
+                    case 'know-services':
+                        addBotMessage("අපගේ සේවාවන් පිළිබඳ දැනගැනීමට පිවිසෙන්න..", function() {
+                            showActionButton("Get Now", "fas fa-external-link-alt", "https://sites.google.com/view/janithgraphicstudio/services");
+                        });
+                        break;
+                        
+                    case 'portfolio':
+                        addBotMessage("අපගේ නිර්මාණ සහ Portpolio නැරඹීමට සහ ඒ පිළිබඳ දැනගැනීමට පිවිසෙන්න..", function() {
+                            showActionButton("Get Now", "fas fa-external-link-alt", "https://sites.google.com/view/janithgraphicstudio/portfolio");
+                        });
+                        break;
+                        
+                    case 'buy-services':
+                        addBotMessage("අපගේ සේවාවන් සහ මිලගණන් දැනගැනීමට හෝ මිලදී ගැනීමට පිවිසෙන්න..", function() {
+                            showActionButton("Get Now", "fas fa-external-link-alt", "https://sites.google.com/view/janithgraphicstudio/shop");
+                        });
+                        break;
+                        
+                    case 'place-order':
+                        addBotMessage("ස්තූති, ඔබගේ පැමිණීම අපට ඉමහත් ගෞරවයකි. ඔබගේ සේවා ඇණවුම දැන් අපට ලබාදන්න.", function() {
+                            showActionButton("Order Now", "fab fa-whatsapp", "https://wa.me/94702001859", true);
+                        });
+                        break;
+                }
+            }
+
+            // Show consulting input
+            function showConsultingInput() {
+                const inputHtml = `
+                    <div class="bot-message message">
+                        <p>කරුණාකර ඔබගේ ප්‍රශ්නය හෝ ගැටලුව ලියන්න:</p>
+                        <div class="chatbot-input" style="padding: 10px 0 0 0; border: none; background: transparent;">
+                            <input type="text" placeholder="Type your question..." id="consulting-input" style="width: 100%;">
+                        </div>
+                        <div class="action-buttons">
+                            <button class="action-btn" id="send-consultation" style="margin-top: 10px;">
+                                <i class="fab fa-whatsapp"></i> Send Now
+                            </button>
+                        </div>
+                    </div>
+                `;
+                
+                // Add input with typing effect container
+                const typingContainer = document.createElement('div');
+                typingContainer.className = 'bot-message message';
+                typingContainer.innerHTML = '<div class="typing"><span class="typing-dot"></span><span class="typing-dot"></span><span class="typing-dot"></span></div>';
+                chatbotMessages.appendChild(typingContainer);
+                
+                // Scroll to bottom
+                scrollToBottom();
+                
+                // After a short delay, replace typing with input
+                setTimeout(function() {
+                    typingContainer.innerHTML = inputHtml;
+                    
+                    // Add event listener to send button
+                    document.getElementById('send-consultation')?.addEventListener('click', function() {
+                        const input = document.getElementById('consulting-input');
+                        if (input.value.trim() !== '') {
+                            addUserMessage(input.value);
+                            input.value = '';
+                            
+                            // Show confirmation
+                            setTimeout(function() {
+                                addBotMessage("ස්තූතියි! ඔබගේ ප්‍රශ්නය අප වෙත යොමු කර ඇත. අපගේ සහය කණ්ඩායම ඔබට ඉක්මනින් පිලිතුරු දෙනු ඇත.", function() {
+                                    window.open('https://wa.me/94702001859', '_blank');
+                                });
+                            }, 1000);
+                        }
+                    });
+                    
+                    // Also send on Enter key
+                    document.getElementById('consulting-input')?.addEventListener('keypress', function(e) {
+                        if (e.key === 'Enter') {
+                            document.getElementById('send-consultation').click();
+                        }
+                    });
+                    
+                    scrollToBottom();
+                }, 1000);
+            }
+
+            // Show action button
+            function showActionButton(text, icon, url, isWhatsApp = false) {
+                const buttonHtml = `
+                    <div class="action-buttons">
+                        <button class="action-btn" id="action-btn">
+                            <i class="${icon}"></i> ${text}
+                        </button>
+                    </div>
+                `;
+                
+                // Add button with typing effect container
+                const typingContainer = document.createElement('div');
+                typingContainer.className = 'bot-message message';
+                typingContainer.innerHTML = '<div class="typing"><span class="typing-dot"></span><span class="typing-dot"></span><span class="typing-dot"></span></div>';
+                chatbotMessages.appendChild(typingContainer);
+                
+                // Scroll to bottom
+                scrollToBottom();
+                
+                // After a short delay, replace typing with button
+                setTimeout(function() {
+                    typingContainer.innerHTML = buttonHtml;
+                    
+                    // Add event listener to button
+                    document.getElementById('action-btn')?.addEventListener('click', function() {
+                        if (isWhatsApp) {
+                            const timestamp = new Date().toLocaleString();
+                            window.open(`${url}?text=${encodeURIComponent("I need help with JGS services - " + timestamp)}`, '_blank');
+                        } else {
+                            window.open(url, '_blank');
+                        }
+                    });
+                    
+                    scrollToBottom();
+                }, 1000);
+            }
+
+            // Add bot message with typing effect
+            function addBotMessage(text, callback) {
+                const messageElement = document.createElement('div');
+                messageElement.className = 'bot-message message';
+                
+                // Start with typing indicator
+                messageElement.innerHTML = '<div class="typing"><span class="typing-dot"></span><span class="typing-dot"></span><span class="typing-dot"></span></div>';
+                chatbotMessages.appendChild(messageElement);
+                
+                // Scroll to bottom
+                scrollToBottom();
+                
+                // Calculate typing time (50ms per character)
+                const typingTime = Math.min(text.length * 50, 3000);
+                
+                // After typing time, replace with actual message
+                setTimeout(function() {
+                    messageElement.innerHTML = text;
+                    scrollToBottom();
+                    
+                    // Execute callback if provided
+                    if (callback) {
+                        callback();
+                    }
+                }, typingTime);
+            }
+
+            // Add user message
+            function addUserMessage(text) {
+                const messageElement = document.createElement('div');
+                messageElement.className = 'user-message message';
+                messageElement.textContent = text;
+                chatbotMessages.appendChild(messageElement);
+                scrollToBottom();
+            }
+
+            // Send message
+            function sendMessage() {
+                const message = userInput.value.trim();
+                if (message !== '') {
+                    addUserMessage(message);
+                    userInput.value = '';
+                    
+                    // Bot response based on current state
+                    setTimeout(function() {
+                        switch(currentState) {
+                            case 'initial':
+                            case 'services':
+                                addBotMessage("කරුණාකර ඉහත සේවා වලින් ඔබට අවශ්‍ය එක තෝරන්න.", function() {
+                                    showServiceCards();
+                                });
+                                break;
+                                
+                            case 'graphic-design-options':
+                                addBotMessage("කරුණාකර ඉහත විකල්ප වලින් ඔබට අවශ්‍ය එක තෝරන්න.", function() {
+                                    showGraphicDesignOptions();
+                                });
+                                break;
+                                
+                            case 'consulting':
+                                // This will be handled by the consulting input
+                                break;
+                                
+                            default:
+                                addBotMessage("I'm not sure how to respond to that. Please select one of the options above.", function() {
+                                    if (currentState === 'graphic-design-options') {
+                                        showGraphicDesignOptions();
+                                    } else {
+                                        showServiceCards();
+                                    }
+                                });
+                        }
+                    }, 1000);
+                }
+            }
+
+    // Scroll to bottom of messages
+    function scrollToBottom() {
+        chatbotMessages.scrollTop = chatbotMessages.scrollHeight;
+    }
+});
+// --- Chatbot Notification Logic (Local Sound File) ---
+window.addEventListener('DOMContentLoaded', function() {
+    const notif = document.getElementById('chatbot-notification');
+    const notifClose = document.getElementById('chatbot-notification-close');
+
+  setTimeout(() => {
+        notif.classList.add('show');
+        setTimeout(() => {
+            notif.classList.remove('show');
+        }, 4000);
+    }, 1000);
+
+    notifClose.onclick = () => notif.classList.remove('show');
+});
+   // Welcome Popup
+        setTimeout(() => {
+            document.getElementById('welcomePopup').classList.add('active');
+        }, 2000);
+        
+        document.getElementById('closePopup').addEventListener('click', () => {
+            document.getElementById('welcomePopup').classList.remove('active');
+        });
+
+// Existing website scripts
+ // Mouse light effect
+     document.addEventListener('mousemove', (e) => {
+            const light = document.getElementById('lightEffect');
+            light.style.left = e.clientX + 'px';
+            light.style.top = e.clientY + 'px';
+        });
+        // Cursor Lightning Effect
+        document.addEventListener('mousemove', function(e) {
+            document.body.classList.add('lightning');
+            const cursor = document.body;
+            cursor.style.setProperty('--x', e.clientX + 'px');
+            cursor.style.setProperty('--y', e.clientY + 'px');
+            
+            setTimeout(() => {
+                document.body.classList.remove('lightning');
+            }, 100);
+        });
+        
+        // Navbar Scroll Effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+             // Scroll Down Button
+        const scrollDown = document.getElementById('scrollDown');
+        scrollDown.addEventListener('click', () => {
+            window.scrollTo({
+                top: window.innerHeight,
+                behavior: 'smooth'
+            });
+        });
+         // Smooth scrolling for all links
+         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Animation on scroll
+        function animateOnScroll() {
+            const elements = document.querySelectorAll('.card, .feature-item, .about-image, .about-content');
+            
+            elements.forEach(element => {
+                const elementPosition = element.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight / 1.3;
+                
+                if (elementPosition < screenPosition) {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }
+            });
+        }
+            
+            // Go to Top Button
+            const goTop = document.querySelector('.go-top');
+            if (window.scrollY > 300) {
+                goTop.classList.add('active');
+            } else {
+                goTop.classList.remove('active');
+            }
+        });
+        const scrollToTop = document.querySelector('.go-top');
+if (scrollToTop) {
+    function scrollTopHandler(e) {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+    scrollToTop.addEventListener('click', scrollTopHandler);
+    scrollToTop.addEventListener('touchstart', scrollTopHandler);
+}
+        
+        // Mobile Menu Toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        
+        menuToggle.addEventListener('click', function() {
+            menuToggle.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+        
+        // Close mobile menu when clicking a link
+        const navItems = document.querySelectorAll('.nav-links a');
+        navItems.forEach(item => {
+            item.addEventListener('click', function() {
+                menuToggle.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+        
+        // Popup
+        const learnMore = document.getElementById('learn-more');
+        const popup = document.getElementById('popup');
+        const popupClose = document.querySelector('.popup-close');
+        
+        learnMore.addEventListener('click', function(e) {
+            e.preventDefault();
+            popup.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+        
+        popupClose.addEventListener('click', function() {
+            popup.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        });
+        
+        popup.addEventListener('click', function(e) {
+            if (e.target === popup) {
+                popup.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            }
+        });
+         // Card hover effect enhancement
+         document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('mousemove', function(e) {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                
+                card.style.setProperty('--mouse-x', `${x}px`);
+                card.style.setProperty('--mouse-y', `${y}px`);
+            });
+        });
+        
+        // Go to Top
+        const goTop = document.querySelector('.go-top');
+        goTop.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Animate elements on scroll
+        const animateOnScroll = function() {
+            const elements = document.querySelectorAll('.card, .mission-card, .ai-section, .section-title');
+            
+            elements.forEach(element => {
+                const elementPosition = element.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight / 1.3;
+                
+                if (elementPosition < screenPosition) {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }
+            });
+        };
+        
+        // Set initial state for animated elements
+        window.addEventListener('load', function() {
+            const elements = document.querySelectorAll('.card, .mission-card, .ai-section, .section-title');
+            
+            elements.forEach(element => {
+                element.style.opacity = '0';
+                element.style.transform = 'translateY(50px)';
+                element.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            });
+            
+            animateOnScroll();
+        });
+        
+        window.addEventListener('scroll', animateOnScroll);
+        
+        window.addEventListener('DOMContentLoaded', function() {
+    const welcomePopup = document.getElementById('welcomePopup');
+    const closePopup = document.getElementById('closePopup');
+
+    // Function to check if device is desktop
+    function isDesktop() {
+        return window.innerWidth >= 768; // You can adjust this breakpoint as needed
+    }
+
+    if (welcomePopup && closePopup) {
+        if (isDesktop()) {
+            setTimeout(() => {
+                welcomePopup.classList.add('active');
+            }, 2000);
+
+            closePopup.addEventListener('click', () => {
+                welcomePopup.classList.remove('active');
+            });
+            closePopup.addEventListener('touchstart', () => {
+                welcomePopup.classList.remove('active');
+            });
+        } else {
+            // On mobile, always hide the popup
+            welcomePopup.classList.remove('active');
+        }
+    }
+});
